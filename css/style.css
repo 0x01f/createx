@@ -29,6 +29,11 @@ html, body {
     margin-right: 36px;
 }
 
+.button:hover, .button--clear:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
 .button--clear {
     font-size: 16px;
     line-height: 52px;
@@ -94,6 +99,11 @@ html, body {
     font-weight: 700;
     margin-right: 40px;
 }
+.header__list-item:hover, .header__user-btn:hover {
+    color:#F75E05;
+    transition: all .3s;
+}
+
 .header__nav-link {
 }
 .header__btn-box {
@@ -101,6 +111,7 @@ html, body {
     align-items: center;
 }
 .header__top-btn {
+    
 }
 .header__user-nav {
     position: relative;
@@ -132,6 +143,22 @@ html, body {
 
 .banner__button-play {
     margin-right: 16px;
+}
+
+.banner__buton-link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.banner__button-link svg {
+    margin-right: 16px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.banner__button-link:hover svg {
+    box-shadow: 0 0 0 16px rgb(255 63 58 / 12%);
 }
 
 .banner__title {
