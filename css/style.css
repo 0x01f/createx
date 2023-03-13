@@ -29,6 +29,27 @@ html, body {
     margin-right: 36px;
 }
 
+.button--clear {
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    padding: 0 40px;
+    color: #F75E05;
+    margin-right: 36px;
+    background-image: none;
+    border-left: 2px solid #FF3F3A;
+    border-right: 2px solid #F75E05;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(left, #FF3F3A, #F75E05), -webkit-linear-gradient(left, #FF3F3A, #F75E05);
+    background-image: linear-gradient(left, #FF3F3A, #F75E05), linear-gradient(left, #FF3F3A, #F75E05);
+    background-size: 100% 2px;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+
+
 /* ---------------------------------------------------- */
 
 .header {
@@ -46,6 +67,13 @@ html, body {
     align-items: center;
     padding: 20px 0;
 }
+
+.header__banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
 .header__logo {
     margin-right: 60px;
 }
@@ -93,4 +121,70 @@ html, body {
     background: url(../images/icons/user-icon.svg) no-repeat;
     width: 20px;
     height: 20px;
+}
+
+/* ------------------------------------------------------------ */
+
+.banner__button {
+    display: flex;
+    align-items: center;
+}
+
+.banner__button-play {
+    margin-right: 16px;
+}
+
+.banner__title {
+    max-width: 496px;
+    margin-top: 24px;
+}
+
+.banner__title-h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #1E212C;
+}
+
+.banner__buttons {
+    display: flex;
+    margin-top: 60px;
+}
+
+.header__statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.statitcs__item {
+    display: flex;
+    align-items: center;
+}
+
+.statistics__item-number {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+    margin-right: 12px;
+}
+
+.statistics__item-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-right: 66px;
+}
+
+.statistics__box {
+    width: 100%;
+}
+
+.statistics__doted {
+    width: 8px;
+    height: 8px;
+    background: #FF3F3A;
+    border-radius: 5px;
+    margin-right: auto;
 }
