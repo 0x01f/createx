@@ -145,7 +145,7 @@ html, body {
     margin-right: 16px;
 }
 
-.banner__buton-link {
+.banner__button-link {
     display: inline-flex;
     align-items: center;
     margin-bottom: 24px;
@@ -290,4 +290,132 @@ html, body {
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
+}
+
+/* ----------------------------------------------- */
+
+.directions__inner {
+}
+.directions__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.directions__span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+.directions__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+.derections__filter {
+}
+.filter__list {
+    display: flex;
+}
+.filter__item {
+    margin-right: 56px;
+    margin-bottom: 56px;
+}
+
+.filter__item-btn {
+    display: block;
+    background-color: transparent;
+    color: #9A9CA5;
+    border: 1px solid #9A9CA5;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    padding: 5px 7px;
+    white-space: nowrap;
+}
+
+.filter__item-btn--active {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.directions__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.directions__item {
+    background: #FFFFFF;
+    box-sizing: content-box;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    max-width: 390px;
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.directions__item:hover {
+    box-shadow: 0px 80px 80px -20px rgb(154 156 165 / 8%), 0px 30px 24px -10px rgb(154 156 165 / 5%), 0px 12px 10px -6px rgb(154 156 165 / 4%), 0px 4px 4px -4px rgb(30 33 44 / 3%);
+    transition: all .3s;
+}
+
+
+.item__descr {
+    padding: 24px;
+}
+
+.directions__title {
+    display: inline-flex;
+    height: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 1px 8px 1px 8px;
+}
+
+.color--green {
+    background: #03CEA4;
+}
+
+.color--blue {
+    background: #5A87FC;
+}
+
+.color--orange {
+    background: #F89828;
+}
+
+.color--pink {
+    background: #F52F6E;
+}
+
+.color--purple {
+    background: #7772F1;
+}
+
+
+.directions__descr {
+    margin: 21px 0 20px 0;
+}
+
+.directions__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.directions__btn {
+    margin-right: 11px;
 }
