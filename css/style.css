@@ -387,7 +387,6 @@ html, body {
     display: inline-flex;
     height: 28px;
     font-weight: 700;
-    font-size: 16px;
     line-height: 160%;
     color: #FFFFFF;
     border-radius: 4px;
@@ -454,7 +453,6 @@ html, body {
 
 .certificate__span {
     font-weight: 700;
-    font-size: 16px;
     line-height: 150%;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -469,7 +467,6 @@ html, body {
 
 .certificate__p {
     font-weight: 400;
-    font-size: 16px;
     line-height: 160%;
     color: #424551;
 }
@@ -477,5 +474,102 @@ html, body {
 .certificate__box {
     display: flex;
     justify-content: space-between;
-    margin-top: ;
+    margin-top: 10px;
+}
+
+.certificate__right {
+    margin-bottom: -46px;
+}
+
+/* ----------------------------------------------------- */
+
+.team {
+    background-color: #F4F5F7;
+}
+
+.team__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+.team__arrow {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left__arrow {
+    margin-right: 27px;
+}
+
+.right__arrow {
+    transform: scale(-1, 1);
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px; 
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FF3F3A;;
+    z-index: -1;
+    transition: all 0.7s;
+}
+
+.arrow img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.team__inner {
+    padding-top: 176px;
+}
+
+.team__text {}
+
+.team__span {
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.team__h3 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.team__profiles {
+    display: flex;
+}
+
+.team__profile {
+    padding: 17px;
+    text-align: center;
+}
+
+.profile__title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #424551;
+}
+
+.profile__desr {
+    margin-top: 4px;
+    line-height: 1.6;
+    color: #787A80;
 }
